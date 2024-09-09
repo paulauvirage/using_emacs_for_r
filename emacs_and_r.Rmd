@@ -24,4 +24,12 @@ lion_noses <- as.data.frame(LionNoses) |>
   mutate(percentage.black = 100*proportion.black)
 lion_noses
 ```
+## Why emacs
 
+## Installling emacs
+
+## What are the init file and elpa folder?
+
+## Setting up ESS and supporting packages
+
+## Working example and workflow

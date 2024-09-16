@@ -1,10 +1,6 @@
----
-title: "Using emacs and R for statistical analysis"
-author: "Paul Robinson"
-date: "`r format(Sys.Date())`"
-output:
-  html_document:
-    keep_md: true
+------------------------------------------------------------------------
+
+title: "Using emacs and R for statistical analysis" author: "Paul Robinson" date: "`r format(Sys.Date())`" output: html_document: keep_md: true
 
 ```{r, echo = F, cache = F}
 knitr::opts_chunk$set(fig.retina = 2.5)
@@ -14,22 +10,27 @@ options(width = 100)
 
 ```{r, warning = F, message = F}
 library(tidyverse)
-library(abd)
-library(brms)
-library(broom.mixed)
-library(posterior) # do I need this?
-library(patchwork)
 
-lion_noses <- as.data.frame(LionNoses) |> 
-  mutate(percentage.black = 100*proportion.black)
-lion_noses
 ```
+
+## TL;DR
+
 ## Why emacs
 
 ## Installling emacs
 
 ## What are the init file and elpa folder?
 
+## A (very) brief tour of emacs and its terminology
+
 ## Setting up ESS and supporting packages
 
 ## Working example and workflow
+
+## Which shortcuts do I use?
+
+## refs etc
+
+[Pragmatic emacs](https://pragmaticemacs.wordpress.com/) blog
+
+Book free book online on [markdown mode](https://leanpub.com/markdown-mode/read#preview-export)

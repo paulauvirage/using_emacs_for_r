@@ -1,0 +1,29 @@
+---
+title: "emacs LSE"
+author: "Paul"
+date: "2024-09-11"
+output:
+  html_document:
+    keep_md: true
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+refs
+
+[emacs lse](https://emacs-lsp.github.io/lsp-ui/#intro)
+
+[wikemacs](https://wikemacs.org/wiki/Quick_Tutorial)
+
+[ess manual](https://ess.r-project.org/Manual/ess.html#Rdired)
+
+[pdf-tools package](https://github.com/vedang/pdf-tools)
+
+[wikemacs intro](https://wikemacs.org/wiki/Quick_Tutorial) useful website and nice intro
+
+[blog introducing spell checking](https://www.tenderisthebyte.com/blog/2019/06/09/spell-checking-emacs/) which is installed by default.
+`Mx-flyspell-buffer` in the mini buffer highlights all spelling mistakes in an .Rmd file. You do not need to first enable flyspell.
+
